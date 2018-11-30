@@ -17,28 +17,25 @@
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    top: 30%;
+    top: 20%;
 }
 
-.maintitle:hover ~ .homewrapper {
-    background-color: transparent;
-}
 
 .myname {
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 100;
     font-weight: bold;
 }
 
 .mydesc {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 100;
 }
 
 .nav {
     text-align: center;
-    margin-top: 20px;
-    position: absolute;
+    top: 5%;
+    position: relative;
     width: 100%;
 }
 
@@ -83,8 +80,8 @@
     text-align: center;
     color: white;
     position: relative;
-    font-size: 25px;
-    top: 40%;
+    font-size: 30px;
+    top: 30%;
     font-family: 'Times New Roman', Times, serif
 }
 
@@ -114,7 +111,7 @@ html {
     position: relative;
 }
 
-.abtsection {
+.aboutsection {
     background-color: gray;
     position: relative;
     top: 15%;
@@ -122,10 +119,19 @@ html {
     margin-left: 10%;
     border-radius: 16px;
     box-shadow: 0px 5px 10px black;
+    overflow: auto;
 }
 
 .profpic {
     height: 200px;
     margin: 25px;
     border-radius: 50%;
+    float: left;
+    position: relative;
+}
+
+.abouttext {
+    margin: 30px;
+    padding-right: 30px;
+    font-size: 30px;
 }
