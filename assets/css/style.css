@@ -1,0 +1,88 @@
+.homewrapper {
+    overflow: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.226);
+    height: 100%;
+}
+
+.maintitle {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-top: 300px;
+}
+
+.maintitle:hover ~ .homewrapper {
+    background-color: transparent;
+}
+
+.myname {
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.mydesc {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.navbtn {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 50px;
+    color: white;
+    padding: 14px;
+    transition: 1.0s;
+    border-color: transparent;
+    border-style: double;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+.navbtn:hover {
+    border-color: lightblue;
+    text-decoration: none;
+    color: lightblue;
+}
+
+@include media-breakpoint-up(sm) {
+    .navbtn {
+        font-size: 3.5rem;
+    }
+}
+
+.home {
+    background-image: url("../images/LAbackground.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.homebio {
+    text-align: center;
+    color: white;
+}
+
+html {
+    background-image: url("../images/LAbackground.jpg");
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.822)
+    
+}
