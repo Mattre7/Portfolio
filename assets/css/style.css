@@ -7,6 +7,7 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.226);
     height: 100%;
+    width: 100%;
 }
 
 .maintitle {
@@ -15,7 +16,7 @@
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    margin-top: 300px;
+    top: 30%;
 }
 
 .maintitle:hover ~ .homewrapper {
@@ -25,6 +26,7 @@
 .myname {
     font-size: 65px;
     font-weight: 100;
+    font-weight: bold;
 }
 
 .mydesc {
@@ -44,12 +46,10 @@
     font-size: 2.5rem;
     margin: 50px;
     color: white;
+    background-color: transparent;
     padding: 14px;
     transition: 1.0s;
-    border-color: transparent;
-    border-style: double;
-    border-radius: 8px;
-    border-width: 4px;
+    min-width: 125px
 }
 
 .navbtn:hover {
@@ -66,23 +66,54 @@
 
 .home {
     background-image: url("../images/LAbackground.jpg");
-    background-size: auto 100%;
+    background-size: auto 100vh;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: max-content;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
+@media only screen and (min-width: 1555px) {
+    .home {
+        background-size: 100% auto
+    }
+}
+
 .homebio {
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
     color: white;
+    position: relative;
+    font-size: 25px;
+    top: 40%;
+    font-family: 'Times New Roman', Times, serif
 }
 
 html {
     background-image: url("../images/LAbackground.jpg");
     background-size: contain;
     background-color: rgba(0, 0, 0, 0.822)
-    
+}
+
+.about {
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+}
+
+.abouttitle {
+    color: white;
+    border-color: white;
+    border-style: double;
+    border-width: 0 0 4px 0;
+    padding: 10px 20px;
+    width: 80%;
+    margin-left: 10%;
+    top: 10%;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
 }
