@@ -8,6 +8,7 @@
     background-color: rgba(0, 0, 0, 0.226);
     height: 100%;
     width: 100%;
+    box-shadow: 0px 5px 5px black;
 }
 
 .maintitle {
@@ -49,19 +50,14 @@
     background-color: transparent;
     padding: 14px;
     transition: 1.0s;
-    min-width: 125px
+    min-width: 125px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbtn:hover {
     border-color: lightblue;
     text-decoration: none;
     color: lightblue;
-}
-
-@include media-breakpoint-up(sm) {
-    .navbtn {
-        font-size: 3.5rem;
-    }
 }
 
 .home {
@@ -93,7 +89,7 @@
 }
 
 html {
-    background-image: url("../images/LAbackground.jpg");
+
     background-size: contain;
     background-color: rgba(0, 0, 0, 0.822)
 }
