@@ -79,12 +79,10 @@ p, li {
         background-size: 100% auto
     }
 }
-@media only screen and (max-width: 880px) {
-    .maintitle {
-        top: 15%;
-    }
-    .homebio {
-        margin-bottom: 50px;
+
+@media only screen and (max-width: 1060px) {
+    .navbtn {
+        margin: 20px;
     }
 }
 
@@ -106,14 +104,25 @@ html {
     /* background-color: rgba(0, 0, 0, 0.822) */
 }
 
-.about, .contact {
+.about {
     position: relative;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.822);
     display: block;
     padding-top: 5%;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.589);
+}
+
+.contact {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    display: block;
+    padding-top: 5%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.589);
+    z-index: -2;
 }
 
 .about:after {
@@ -122,9 +131,22 @@ html {
     clear: both;
 }
 
-.abouttitle, .contacttitle {
+.abouttitle {
     color: white;
     border-color: white;
+    border-style: double;
+    border-width: 0 0 4px 0;
+    margin: 0px auto 10% 5%;
+    padding: 10px 20px;
+    width: 90%;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.contacttitle {
+    color: black;
+    border-color: black;
     border-style: double;
     border-width: 0 0 4px 0;
     margin: 0px auto 10% 5%;
@@ -166,12 +188,13 @@ html {
     background-image: url("../images/palmbackground.jpg");
     background-size: auto 100vh;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     height: max-content;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     position: relative;
     z-index: -1;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.281);
 }
 
 .portfoliotitle {
@@ -208,3 +231,6 @@ html {
 
 }
 
+.formimp {
+
+}
