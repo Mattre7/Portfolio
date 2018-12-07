@@ -76,7 +76,8 @@ p, li {
 
 @media only screen and (min-width: 1555px) {
     .home {
-        background-size: 100% auto
+        background-size: 100% 100vh
+
     }
 }
 
@@ -109,7 +110,6 @@ html {
     min-height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.822);
-    display: block;
     padding-top: 5%;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.589);
 }
@@ -159,13 +159,17 @@ html {
 
 .aboutsection {
     background-color: gray;
-    position: relative;
-    top: 15%; 
+    position: relative; 
     margin: 0% auto 15%;
     border-radius: 16px;
     box-shadow: 0px 5px 10px black;
     overflow: auto;
     max-width: 80%;
+}
+
+.abtrow {
+    display: absolute;
+    top: 50%;
 }
 
 
@@ -184,7 +188,7 @@ html {
 }
 
 .portfolio {
-    color: white;
+    color: black;
     background-image: url("../images/palmbackground.jpg");
     background-size: auto 100vh;
     background-position: center;
@@ -195,6 +199,12 @@ html {
     position: relative;
     z-index: -1;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+@media only screen and (max-width: 991px) {
+    .portfolio {
+        background-size: cover;
+    }
 }
 
 .portfoliotitle {
