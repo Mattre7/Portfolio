@@ -11,6 +11,8 @@ body {
 .titlesection {
     background-color: black;
     margin-left: 0;
+    color: white;
+    box-shadow:0px 0px 15px 2.5px black;
 }
 
 
@@ -19,6 +21,7 @@ body {
     padding: 30px;
     font-family: Yeseva One;
     /* font-size: 50px; */
+    text-align: center;
     
 }
 
@@ -28,6 +31,8 @@ body {
 
 .navbar {
     position: sticky;
+    box-shadow:0px 5px 15px 2.5px grey;
+    border-width: 0;
 
 }
 
@@ -44,11 +49,15 @@ body {
 
 .biosection {
     overflow: hidden;
-    border-bottom: 1px solid #000;
+    background: rgba(175, 175, 175, .5);
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow:0px 0px 15px 2.5px grey;
 }
 
 .aboutheader {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(125, 125, 125, .5);
     padding-bottom: 3px;
     margin-bottom: 0px;
 }
@@ -75,14 +84,16 @@ body {
 
 .languagesection {
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 5%;
-    background: rgba(175, 175, 175, .5)
+    background: rgba(175, 175, 175, .5);
+    box-shadow:0px 0px 15px 2.5px grey;
 }
 
 .languageheader {
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    border-color:rgba(125, 125, 125, .5);
     padding: 10px;
     margin:0;
 }
@@ -90,7 +101,7 @@ body {
 .languagebox {
     border-width: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: rgba(125, 125, 125, .5);
 }
 
 .leftbox {
