@@ -19,17 +19,26 @@
 		<div class = " ">
 
 		</div>
-		<div>
+		<div class = "divider"></div>
+		<div class = "container formsection">
+			<h3 class = "contactheader">Contact Me!</h3>
+			<br><br>
 			<form action = "https://formspree.io/f/xgedgeyy" method = "POST">
-  				<label> Your email: <input type = "email" name = "email"></label>
-				<label> Your message: 
-					<textarea type = "message"></textarea>
+				<label class = "formlabel"> Name:
+					<input class = "nameinput" type = "text" name = "name" placeholder = "John Smith">
 				</label>
-  				<!-- <label> Your file: 
-					<input type="file" name="upload">
-				</label> -->
-				<button type = "submit">Send</button>
+				<br><br>
+  				<label class = "formlabel"> Email: 
+					<input class = "emailinput" type = "email" name = "email" placeholder = "johnsmith@gmail.com">
+				</label>
+				<br><br>
+				<label class = "formlabel"> Message: 
+					<textarea class = "contacttext" name = "message"></textarea>
+				</label>
+				<br><br>
+				<button class = "formbtn" name="submit" type = "submit">Send</button>
 			</form>
 		</div>
+		<div class = "divider"></div>
     </body>
 </html>
