@@ -54,9 +54,15 @@ body {
     padding-right: 50px;
     box-shadow:0px 0px 15px 2.5px grey;
 }
+@media only screen and (max-width: 736px) {
+    .biotext {
+
+    }
+  }
 
 .biotext {
     padding: 10px;
+    font-size: 25px;
 }
 
 .aboutheader {
@@ -70,7 +76,7 @@ body {
     height: 250px;
     width: 250px;
     float: left;
-    margin-right: 15px;
+    margin: 15px 15px 15px 0;
 }
 
 .biobody {
@@ -101,6 +107,13 @@ body {
     border-color:rgba(125, 125, 125, .5);
     padding: 10px;
     margin:0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.languagename {
+    text-align: center;
+    font-size: 25px;
 }
 
 .languagebox {
@@ -191,6 +204,7 @@ body {
     padding: 10px;
     margin-top: 0px;
     background: rgba(212, 212, 212, 0.75);
+    color: rgb(0, 0, 0);
 }
 
 body {
