@@ -29,7 +29,6 @@ body {
 }
 
 .navbar {
-    position: sticky;
     box-shadow:0px 5px 15px 2.5px grey;
     border-width: 0;
 
@@ -106,14 +105,18 @@ body {
     border-bottom-style: solid;
     border-color:rgba(125, 125, 125, .5);
     padding: 10px;
-    margin:0;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
+    margin-bottom: 0;
 }
 
 .languagename {
     text-align: center;
     font-size: 25px;
+}
+
+.languagetable {
+    table-layout: fixed;
 }
 
 .languagebox {
